@@ -124,6 +124,7 @@ const events = [
 const certificates = [
   {
     title: 'HackMatrix 1.0 — National Level Hackathon',
+    image: '/certificates/hackmatrix-1.0.jpg',
     issuer: 'Department of Artificial Intelligence & Machine Learning, KS Institute of Technology',
     date: '5 November 2026',
     description: 'Certificate of participation. Participated as Team Cyber Spark [F94].',
@@ -131,6 +132,7 @@ const certificates = [
   },
   {
     title: 'AI Tools & Claude Workshop',
+    image: '/certificates/b10x-ai-tools-claude.jpg',
     issuer: 'B10x',
     date: '30 August 2026',
     description: 'Workshop completion covering practical AI-assisted workflows for presentations, data analysis, coding and debugging.',
@@ -138,6 +140,7 @@ const certificates = [
   },
   {
     title: 'Building Intelligent Applications with Generative AI',
+    image: '/certificates/ksit-generative-ai.jpg',
     issuer: 'Department of Computer Science and Engineering, KS Institute of Technology',
     date: '26–28 March 2026',
     description: 'Three-day workshop focused on building intelligent applications with Generative AI.',
@@ -283,7 +286,7 @@ function App() {
         <SectionTitle eyebrow="06 / WORKSHOPS & CERTIFICATES" title={<>Learning, recognised.<br /><em>Curiosity, certified.</em></>} note="Two verified workshop certificates shared for this portfolio update." />
         <div className="certificate-grid">
           {certificates.map((cert, index) => <article className="certificate-card" key={cert.title}>
-            <div className="certificate-art"><span>WORKSHOP CERTIFICATE</span><strong>{index === 0 ? 'B10x' : 'KSIT'}</strong><small>{cert.tag}</small><i>✳</i></div>
+            <a className="certificate-preview" href={cert.image} target="_blank" rel="noreferrer" aria-label={`Open ${cert.title} certificate`}><img src={cert.image} alt={`${cert.title} certificate`} loading="lazy" /><span>OPEN CERTIFICATE ↗</span></a>
             <div className="certificate-info"><div className="certificate-date">{cert.date}</div><h3>{cert.title}</h3><p className="certificate-issuer">{cert.issuer}</p><p>{cert.description}</p><span className="certificate-note">Certificate details · original scan can be added to the public portfolio</span></div>
           </article>)}
         </div>
