@@ -188,7 +188,9 @@ function App() {
           <div className="about-story">
             <p className="lead">I’m pursuing Computer Science and Engineering at KS Institute of Technology, Bengaluru.</p>
             <p>My interests span cybersecurity, full-stack development, databases and machine learning. I enjoy understanding how systems work, experimenting in controlled environments and translating concepts into practical projects.</p>
-            <p>My current focus is strengthening my Linux and cybersecurity foundations while developing PackGuard, a language-agnostic malicious package detection project.</p>
+            <p>I have hands-on familiarity with Linux environments, including Ubuntu and Kali Linux, and practise terminal navigation, file and directory operations, permissions, and basic shell commands. I am building my cybersecurity foundations through TryHackMe Pre Security and guided lab exercises.</p>
+            <p>In an isolated virtual-machine lab, I performed a controlled ransomware simulation to observe its behaviour and understand its impact on test files. This was a learning exercise in a virtual environment, not an attack on live systems.</p>
+            <p>My current development focus is PackGuard, a language-agnostic malicious package detection project that combines machine-learning models and anomaly-detection techniques.</p>
             <div className="focus-tags"><span>Cybersecurity</span><span>Applied AI</span><span>Full-stack development</span></div>
           </div>
           <div className="profile-panel">
@@ -251,15 +253,15 @@ function App() {
           <aside className="lab-panel">
             <span className="eyebrow">PRACTICAL LEARNING</span>
             <h3>Learning security by doing.</h3>
-            <p>Linux and Ubuntu terminal practice, Kali Linux labs, TryHackMe Pre Security learning and introductory network/web security tooling.</p>
+            <p>Hands-on familiarity with Ubuntu and Kali Linux: terminal navigation, file and directory operations, permissions, process and system commands, and basic shell scripting. I am learning through TryHackMe Pre Security and controlled virtual labs.</p>
             <div className="lab-tools"><span>Nmap</span><span>Wireshark</span><span>Burp Suite</span><span>OWASP ZAP</span><span>Ghidra</span><span>CyberChef</span><span>Hydra</span><span>Shell scripting</span></div>
-            <div className="lab-callout"><b>Controlled lab exercise</b><p>Practised a ransomware simulation inside an isolated virtual-machine environment as a learning exercise — not on live systems.</p></div>
+            <div className="lab-callout"><b>Ransomware simulation · isolated VM</b><p>Performed a controlled ransomware attack simulation on test files inside an isolated virtual machine to study file-impact behaviour and understand why containment, backups and safe lab isolation matter. No live systems were targeted.</p></div>
           </aside>
         </div>
       </section>
 
       <section className="section-wrap section-block" id="certificates">
-        <SectionTitle eyebrow="06 / WORKSHOPS & CERTIFICATES" title={<>Learning, recognised.<br /><em>Curiosity, certified.</em></>} note="Two verified workshop certificates shared for this portfolio update." />
+        <SectionTitle eyebrow="06 / WORKSHOPS & CERTIFICATES" title={<>Learning, recognised.<br /><em>Curiosity, certified.</em></>} note="Verified participation and workshop certificates. Original scans will appear here once uploaded to the repository." />
         <div className="certificate-grid">
           {certificates.map((cert, index) => <article className="certificate-card" key={cert.title}>
             <a className="certificate-preview" href={cert.image} target="_blank" rel="noreferrer" aria-label={`Open ${cert.title} certificate`}><img src={cert.image} alt={`${cert.title} certificate`} loading="lazy" /><span>OPEN CERTIFICATE ↗</span></a>
