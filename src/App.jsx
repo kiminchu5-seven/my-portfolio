@@ -284,7 +284,7 @@ function App() {
         <div className="certificate-grid">
           {certificates.map((cert, index) => <article className="certificate-card" key={cert.title}>
             <div className="certificate-art"><span>WORKSHOP CERTIFICATE</span><strong>{index === 0 ? 'B10x' : 'KSIT'}</strong><small>{cert.tag}</small><i>✳</i></div>
-            <div className="certificate-info"><div className="certificate-date">{cert.date}</div><h3>{cert.title}</h3><p className="certificate-issuer">{cert.issuer}</p><p>{cert.description}</p><span className="certificate-note">Verified certificate details · original scan available on request</span></div>
+            <div className="certificate-info"><div className="certificate-date">{cert.date}</div><h3>{cert.title}</h3><p className="certificate-issuer">{cert.issuer}</p><p>{cert.description}</p><span className="certificate-note">Certificate details · original scan can be added to the public portfolio</span></div>
           </article>)}
         </div>
       </section>
