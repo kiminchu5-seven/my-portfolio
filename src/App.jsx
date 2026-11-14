@@ -66,6 +66,19 @@ const projects = [
     demo: null,
     action: 'Academic project',
   },
+  {
+    number: '06',
+    name: 'Cybersecurity Learning Log',
+    category: 'CYBERSECURITY · HANDS-ON LEARNING',
+    status: 'LEARNING IN PROGRESS',
+    statusTone: 'progress',
+    summary: 'A GitHub repository for documenting cybersecurity foundations, guided practice and learning notes.',
+    details: 'Includes ongoing learning around Linux, networking and beginner security concepts.',
+    stack: ['Linux', 'Networking', 'TryHackMe', 'Security Notes'],
+    href: 'https://github.com/kiminchu5-seven/cybersecurity-learning',
+    demo: null,
+    action: 'Open learning repository',
+  },
 ]
 
 const skills = [
@@ -149,7 +162,7 @@ function App() {
           <a href="#certificates">Certificates</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a className="nav-resume" href="/resume.pdf" target="_blank" rel="noreferrer">Resume <span>↗</span></a>
+        <a className="nav-resume" href="https://github.com/kiminchu5-seven/my-portfolio/blob/main/resume.md" target="_blank" rel="noreferrer">Resume · GitHub <span>↗</span></a>
       </header>
 
       <section className="hero section-wrap" id="home">
@@ -160,7 +173,7 @@ function App() {
           <p className="hero-intro">I’m Inchara — a CSE student exploring the intersection of cybersecurity, software development and applied AI. I learn by building, testing and getting hands-on.</p>
           <div className="hero-actions">
             <a className="button button-primary" href="#projects">Explore my work <span>↗</span></a>
-            <a className="button button-ghost" href="/resume.pdf" target="_blank" rel="noreferrer">View resume <span>↓</span></a>
+            <a className="button button-ghost" href="https://github.com/kiminchu5-seven/my-portfolio/blob/main/resume.md" target="_blank" rel="noreferrer">View resume on GitHub <span>↗</span></a>
           </div>
           <div className="hero-socials">
             <a href="https://github.com/kiminchu5-seven" target="_blank" rel="noreferrer">GitHub ↗</a>
