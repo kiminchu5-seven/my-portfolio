@@ -79,45 +79,21 @@ const skills = [
 
 const events = [
   {
-    name: 'GAVS Hackathon · Tech4Bharat',
-    kind: 'Hackathon',
-    date: 'November 2026',
-    state: 'Idea submission phase · shortlisting results pending',
-    text: 'The organizer announced an extended idea-submission window through 20 November 2026. The challenge focuses on MSME problem statements across multiple themes.',
-    tone: 'progress',
-  },
-  {
-    name: 'ANVATION 2026',
-    kind: '24-hour hackathon',
-    date: '8–9 October 2026',
-    state: 'Attended',
-    text: 'Participated in a 24-hour hackathon hosted by KS School of Engineering and Management.',
-    tone: 'complete',
-  },
-  {
-    name: 'PARADOX 2026',
-    kind: 'CTF · Cybersecurity',
-    date: '17–18 September 2026',
-    state: 'Attended',
-    text: 'Took part in a Capture The Flag event at RNS Institute of Technology, exploring practical security challenges and tools.',
-    tone: 'complete',
-  },
-  {
-    name: 'Emerging Technologies Hackathon 2026',
-    kind: 'Hackathon',
-    date: '2026',
-    state: 'Participation',
-    text: 'Explored emerging-technology problem solving in a collaborative hackathon setting.',
-    tone: 'complete',
-  },
-  {
     name: 'HackMatrix 1.0',
-    kind: 'Hackathon · Team project',
-    date: '2026',
-    state: 'Team repository',
-    text: 'Worked in a team repository with a FastAPI-based backend setup and supporting project structure.',
+    kind: 'National-level hackathon · Participation certificate',
+    date: '5 November 2026',
+    state: 'Participated · Team Cyber Spark [F94]',
+    text: 'Participated in the national-level hackathon organized by the Department of Artificial Intelligence & Machine Learning at KS Institute of Technology.',
     tone: 'complete',
     link: 'https://github.com/kiminchu5-seven/HackMatrix-1.0',
+  },
+  {
+    name: 'GAVS Hackathon · Tech4Bharat',
+    kind: 'Hackathon · Ongoing',
+    date: 'November 2026',
+    state: 'Idea-submission stage · Shortlisting awaited',
+    text: 'Participating with a team in the ideation and problem-selection stage for challenges focused on India’s MSME ecosystem. The next round is subject to shortlisting; no selection is claimed.',
+    tone: 'progress',
   },
 ]
 
